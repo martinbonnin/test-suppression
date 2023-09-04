@@ -1,3 +1,8 @@
 plugins {
-  id("org.jetbrains.kotlin.jvm").version("1.9.0")
+  id("org.jetbrains.kotlin.multiplatform").version("1.9.0")
+}
+
+kotlin {
+  jvm()
+  js(IR)
 }
